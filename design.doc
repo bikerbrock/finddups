@@ -1,0 +1,31 @@
+Project #1: finddups
+
+Requirement:
+
+Short:
+Compare files passed on the command line and print them out if they are identical
+
+Goal:
+
+To duplicate as little code as possible and maintain the highest quality standard as possible.
+
+
+
+Algorithm:
+
+1.  Reduce any directories to file names
+    - i.e. if there are any files inside that directory, replace that directory name
+      with a list of all file names INSIDE that directory.
+    - keep doing this until there are no directories left
+    a. Loop through the list of files.
+    b. If the file is not a directory, do nothing
+    c. If the file is a directory, replace that filename with ALL the files inside of that directory.
+
+
+2.  Compare each file with the other files to find duplicates.
+    - Compare
+
+
+Data Structure:
+
+Linked list
